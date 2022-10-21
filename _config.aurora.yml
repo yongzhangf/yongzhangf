@@ -44,8 +44,7 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: false
-  about: true
+  About: true
   Tags: true
   Archives: true
 
@@ -164,4 +163,6 @@ aurora_bot:
 #! ---------------------------------------------------------------
 injects:
   scripts:
+    - <script src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js"></script>
+    - <script>if(window.mermaid){mermaid.initialize({theme:"dark",startOnLoad:true});}</script>
   css:
